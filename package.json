@@ -41,7 +41,7 @@
     "livescript": "^1.6.0",
     "puppeteer": "^2.1.1",
     "rimraf": "^3.0.2",
-    "source-map": "0.7.3",
+    "source-map": "0.7.4",
     "tape": "^4.13.2",
     "tests-ex-markdown": "^3.0.0",
     "tmp": "0.1.0",
