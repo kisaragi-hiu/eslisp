@@ -2,11 +2,6 @@
 # user macros and returned from them, and the internal compiler AST form used
 # otherwise.  Also, deals with inserting macros into compilation environments.
 
-ast-errors = require \./esvalid-partial
-{ is-expression } = require \esutils .ast
-
-statementify = require \./es-statementify
-
 # Only used directly by aliases
 import-compilerspace-macro = (env, name, func) ->
   env.import-macro name, func
